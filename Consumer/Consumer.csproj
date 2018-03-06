@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8696325C-AF2F-4D1F-A2DD-92B622F64FE1}</ProjectGuid>
+    <ProjectGuid>{31C2A5B3-832B-4D15-BC69-60E29EBCA730}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DistributedBlockingQueue</RootNamespace>
-    <AssemblyName>DistributedBlockingQueue</AssemblyName>
+    <RootNamespace>ConsumerNamespace</RootNamespace>
+    <AssemblyName>Consumer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Consumer.cs" />
+    <Compile Include="ProgramConsumer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

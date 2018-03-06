@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DistributedBlockingQueue")]
+[assembly: AssemblyTitle("Consumer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DistributedBlockingQueue")]
+[assembly: AssemblyProduct("Consumer")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8696325c-af2f-4d1f-a2dd-92b622f64fe1")]
+[assembly: Guid("31c2a5b3-832b-4d15-bc69-60e29ebca730")]
 
 // Version information for an assembly consists of the following four values:
 //
